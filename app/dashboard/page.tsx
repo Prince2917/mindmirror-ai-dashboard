@@ -7,24 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import {
-  Brain,
-  HeartPulse,
-  TrendingUp,
-  TrendingDown,
-  AlertTriangle,
-  Sparkles,
-  Activity,
-  Zap,
-  Shield,
-  Target,
-  ArrowUpRight,
-  Moon,
-  Sun,
-  Battery,
-  Gauge,
-  RefreshCw,
-} from 'lucide-react'
+import { Brain, HeartPulse, TrendingUp, TrendingDown, TriangleAlert as AlertTriangle, Sparkles, Activity, Zap, Shield, Target, ArrowUpRight, Moon, Sun, Battery, Gauge, RefreshCw } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   moodHistory,

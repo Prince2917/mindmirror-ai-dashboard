@@ -3,21 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
-import {
-  LayoutDashboard,
-  HeartPulse,
-  NotebookPen,
-  TrendingUp,
-  Sparkles,
-  ClipboardList,
-  BarChart3,
-  Brain,
-  Menu,
-  X,
-  Play,
-  Zap,
-  Settings,
-} from 'lucide-react'
+import { LayoutDashboard, HeartPulse, NotebookPen, TrendingUp, Sparkles, ClipboardList, ChartBar as BarChart3, Brain, Menu, X, Play, Zap, Settings } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'

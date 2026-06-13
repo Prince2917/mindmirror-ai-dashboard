@@ -2,25 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import {
-  Brain,
-  HeartPulse,
-  NotebookPen,
-  TrendingUp,
-  Sparkles,
-  ClipboardList,
-  BarChart3,
-  ArrowRight,
-  Shield,
-  Zap,
-  Target,
-  Users,
-  Check,
-  ChevronRight,
-  Play,
-  Star,
-  Quote,
-} from 'lucide-react'
+import { Brain, HeartPulse, NotebookPen, TrendingUp, Sparkles, ClipboardList, ChartBar as BarChart3, ArrowRight, Shield, Zap, Target, Users, Check, ChevronRight, Play, Star, Quote } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'

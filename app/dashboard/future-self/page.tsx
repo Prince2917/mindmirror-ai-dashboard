@@ -7,23 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Badge } from '@/components/ui/badge'
-import {
-  Sparkles,
-  Brain,
-  Loader2,
-  Send,
-  Target,
-  TrendingUp,
-  TrendingDown,
-  Zap,
-  AlertTriangle,
-  Lightbulb,
-  CheckCircle2,
-  Play,
-  ArrowDownRight,
-  ArrowUpRight,
-  Calendar,
-} from 'lucide-react'
+import { Sparkles, Brain, Loader as Loader2, Send, Target, TrendingUp, TrendingDown, Zap, TriangleAlert as AlertTriangle, Lightbulb, CircleCheck as CheckCircle2, Play, ArrowDownRight, ArrowUpRight, Calendar } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   moodHistory,

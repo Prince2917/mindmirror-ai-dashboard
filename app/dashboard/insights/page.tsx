@@ -9,25 +9,7 @@ import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from '@/components/ui/chart'
 import { motion } from 'framer-motion'
-import {
-  AlertTriangle,
-  Target,
-  Activity,
-  TrendingDown,
-  TrendingUp,
-  Sparkles,
-  Calendar,
-  Brain,
-  Heart,
-  Zap,
-  Shield,
-  Moon,
-  Sun,
-  Award,
-  Lightbulb,
-  ArrowUpRight,
-  ArrowDownRight,
-} from 'lucide-react'
+import { TriangleAlert as AlertTriangle, Target, Activity, TrendingDown, TrendingUp, Sparkles, Calendar, Brain, Heart, Zap, Shield, Moon, Sun, Award, Lightbulb, ArrowUpRight, ArrowDownRight } from 'lucide-react'
 import { forecast, triggers, patterns, weeklyReports, aiInsights, emotionalTwinData, moodHistory, type WeeklyReport, type InsightCard } from '@/lib/data'
 import { cn } from '@/lib/utils'
 

@@ -31,21 +31,7 @@ import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from '@/components/ui/chart'
 import { motion, AnimatePresence } from 'framer-motion'
-import {
-  TrendingUp,
-  TrendingDown,
-  Sparkles,
-  Calendar,
-  BarChart3,
-  Activity,
-  Moon,
-  Sun,
-  Zap,
-  Brain,
-  Download,
-  RefreshCw,
-  PieChart,
-} from 'lucide-react'
+import { TrendingUp, TrendingDown, Sparkles, Calendar, ChartBar as BarChart3, Activity, Moon, Sun, Zap, Brain, Download, RefreshCw, ChartPie as PieChart } from 'lucide-react'
 import { moodHistory, generateDemoData, type MoodEntry } from '@/lib/data'
 import { cn } from '@/lib/utils'
 

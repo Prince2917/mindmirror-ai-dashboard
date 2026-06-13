@@ -7,20 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
-import {
-  Loader2,
-  Sparkles,
-  AlertTriangle,
-  Battery,
-  Activity,
-  TrendingUp,
-  Heart,
-  Brain,
-  Zap,
-  Shield,
-  Sun,
-  Moon,
-} from 'lucide-react'
+import { Loader as Loader2, Sparkles, TriangleAlert as AlertTriangle, Battery, Activity, TrendingUp, Heart, Brain, Zap, Shield, Sun, Moon } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { journalEntries, analyzeJournal, emotionColor, type EmotionScore, type JournalEntry } from '@/lib/data'
 import { cn } from '@/lib/utils'
