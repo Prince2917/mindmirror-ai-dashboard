@@ -36,11 +36,4 @@ Unlike traditional mental health apps that react after problems occur, MindMirro
 - **AI-Driven:** Uses sentiment analysis, pattern recognition, and predictive insights.
 - **Impactful:** Promotes proactive mental wellness and burnout prevention.
 
-## 📸 Screenshots
 
-Add project screenshots here.
-
-```md
-![Dashboard](./screenshots/dashboard.png)
-![Emotional Twin](./screenshots/twin.png)
-![Future Self Simulator](./screenshots/future-self.png)
